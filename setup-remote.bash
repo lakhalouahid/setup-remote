@@ -16,6 +16,6 @@ if [[ ! -d ~/.config/nvim ]]; then
   git clone https://github.com/lakhalouahid/config-nvim ~/.config/nvim
 fi
 
-ln -s .tmux.conf ~/.tmux.conf
-ln -s .pyenv_profile ~/.pyenv_profile
+ln -s $PWD/.tmux.conf ~/.tmux.conf
+ln -s $PWD/.pyenv_profile ~/.pyenv_profile
 ln -s ~/.config/zsh/.zprofile ~/.zprofile
